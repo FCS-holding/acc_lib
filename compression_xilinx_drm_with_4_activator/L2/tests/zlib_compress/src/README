@@ -1,0 +1,38 @@
+Software environment:
+    CentOS 7 / Ubuntu 18.04
+    xilinx runtime 2.3.1
+
+Plateform:
+    Alveo U250 Data Center Accelerator Card
+
+How to use:
+    To compress a file, use command below:
+        ./fczlib_compress <input> <output> <xclbin>
+        <input>  : input file
+        <output> : optional, output file, default is '<input>.zlib'
+        <xclbin> : optional, xclbin file, default is 'kernel_top.xclbin'
+	To compress a batch of files, use a file list:
+		./fczlib_compress -l <file_list> <output> <xclbin>
+        <file_list>  : a batch of files location, one file per line
+        <output> : optional, output file, default is '<input>.zlib'
+        <xclbin> : optional, xclbin file, default is 'kernel_top.xclbin'
+
+    Some information will be printed:
+        Found Platform
+        Platform Name: Xilinx
+        Found Device=xilinx_u250_xdma_201830_1
+        INFO: Reading <xclbin>
+        Loading: '<xclbin>'
+        Throughput(MB/s)        :4398.46
+        Compression Rate        :196.66
+        File Size(MB)           :1610.613
+        File Name               :<input>
+        Output Location         :<output>
+
+    There are also software compress and decompress execution binary:
+    ./zlib_compress <input> <output>
+    ./zlib_decompress <input> <output>
+
+
+
+

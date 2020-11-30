@@ -1,0 +1,11 @@
+The purpose of bringing up this file is because some error in SDAccel,
+I am still not very sure about whether this problem is caused by bugs in SDAccel or my code (though I believe it the previous reason but no confirmation is made)
+
+The phenomenon is describbed below:
+
+1) SDAccel 2015.1.2 or below: compilation is fine, CPU emlation is fine;
+2) SDAccel 2015.1.4 or higher version: compilation is fine but we met with segmentation fault with CPU emulation
+3) the same executable file that is compiled by SDAccel 2015.1.2 can CPU emulate well in SDAccel 2015.1.5 environment
+4) g++ compilation and execution finishes well;
+5) valgrind memcheck pass
+

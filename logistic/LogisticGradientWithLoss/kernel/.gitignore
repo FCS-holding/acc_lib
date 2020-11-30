@@ -1,0 +1,6 @@
+cpu_emu
+bit
+*.xclbin
+*.log
+*.jou
+.Xil

@@ -1,0 +1,29 @@
+port : 1027
+verbose : 2
+platform : {
+  cache_limit: 16384
+  scratch_limit: 4096
+	acc : {
+		id : "base"
+		path : "/curr/diwu/prog/acc_runtime/examples/logisticRegression/acc_task/LogisticGradientWithLoss_base.so"
+	}
+}
+platform : {
+  id : "Xilinx OpenCL"
+  path : "/curr/diwu/prog/acc_runtime/platforms/xil_ocl/xil_ocl.so"
+  cache_loc: "Xilinx OpenCL"
+  cache_limit: 8192
+  scratch_limit: 2048
+	acc : {
+		id : "test"
+		path : "../LogisticGradientWithLoss.so"
+    param : {
+      key : "ocl_program_path"
+      value : "../kernel/gradient_base.xclbin"
+    }
+    param : {
+      key : "ocl_kernel_name"
+      value : "gradient"
+    }
+	}
+}

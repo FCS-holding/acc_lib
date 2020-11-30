@@ -1,0 +1,221 @@
+<ENTRY>
+{
+ "session": {
+  "name": "v++_compile_a",
+  "pid": "0",
+  "uuid": "430e5c32-08e1-4998-86c5-a7c5af8e383e",
+  "description": "",
+  "timestamp": "0",
+  "outputFiles": [
+   {
+    "type": "JSON",
+    "mode": "CLIENT_ONLY",
+    "path": "/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/tests/zlib_compress/hls4/.tlog/v++_compile_a.xtl",
+    "continuous": true
+   },
+   {
+    "type": "JSON",
+    "mode": "LOCAL_IF_NO_CONNECT",
+    "path": "..compile_summary",
+    "continuous": true
+   },
+   {
+    "type": "BINARY_PROTOBUF",
+    "mode": "LOCAL_IF_NO_CONNECT",
+    "path": "..compile_summary.pb",
+    "continuous": true
+   }
+  ]
+ },
+ "thisFile": "/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/tests/zlib_compress/..compile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Fri Jul 24 03:44:41 2020",
+ "timestampMillis": "1595576681283",
+ "buildStep": {
+  "cmdId": "ce8f955d-5014-4acb-92be-7ce73184ae00",
+  "name": "v++",
+  "logFile": "/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/tests/zlib_compress/hls4/a/a.steps.log",
+  "commandLine": "/curr/software/Vitis/Vitis/2019.2/bin/unwrapped/lnx64.o/v++  --xp \"vivado_prop:run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --xp param:compiler.forceHlsDesignXmlGeneration=1 -I/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L1/include/hw -I/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/src/ -I/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/include/ -g -t sw_emu --platform /curr/software/Vitis/Vitis/2019.2/platforms/xilinx_u250_xdma_201830_2/xilinx_u250_xdma_201830_2.xpfm --save-temps --config /home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/tests/zlib_compress/advanced.ini -DPARALLEL_BLOCK=8 --temp_dir hls4 --report_dir hls4_report -c -k zlib_top --report_level estimate -I/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/src/ /home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/src//zlib_lz77_compress_mm_new.cpp /home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/src//zlib_huffman_enc_mm_new.cpp /home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/src//zlib_treegen_mm_new.cpp /home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/src//zlib_s2_pingpong_buffer.cpp /home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/src//zlib_top_loop.cpp ",
+  "args": [
+   "-I/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L1/include/hw",
+   "-I/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/src/",
+   "-I/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/include/",
+   "-g",
+   "-t",
+   "sw_emu",
+   "--platform",
+   "/curr/software/Vitis/Vitis/2019.2/platforms/xilinx_u250_xdma_201830_2/xilinx_u250_xdma_201830_2.xpfm",
+   "--save-temps",
+   "--config",
+   "/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/tests/zlib_compress/advanced.ini",
+   "-DPARALLEL_BLOCK=8",
+   "--temp_dir",
+   "hls4",
+   "--report_dir",
+   "hls4_report",
+   "-c",
+   "-k",
+   "zlib_top",
+   "--report_level",
+   "estimate",
+   "-I/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/src/",
+   "/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/src//zlib_lz77_compress_mm_new.cpp",
+   "/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/src//zlib_huffman_enc_mm_new.cpp",
+   "/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/src//zlib_treegen_mm_new.cpp",
+   "/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/src//zlib_s2_pingpong_buffer.cpp",
+   "/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/src//zlib_top_loop.cpp"
+  ],
+  "iniFiles": [
+   {
+    "path": "/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/tests/zlib_compress/advanced.ini",
+    "content": "[advanced]\nparam=compiler.enableAutoPipelining=false\n"
+   }
+  ]
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Jul 24 03:44:41 2020",
+ "timestampMillis": "1595576681284",
+ "status": {
+  "cmdId": "ce8f955d-5014-4acb-92be-7ce73184ae00",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Fri Jul 24 03:44:52 2020",
+ "timestampMillis": "1595576692957",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_u250_xdma_201830_2.xpfm",
+  "hardwareDsa": "xilinx_u250_xdma_201830_2.dsa",
+  "platformDirectory": "/curr/software/Vitis/Vitis/2019.2/platforms/xilinx_u250_xdma_201830_2",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_COMPILE",
+  "target": "TT_SW_EMU",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "zlib_top",
+     "file": "/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/tests/zlib_compress/a.xo",
+     "reports": []
+    },
+    "sources": [
+     "/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/src/zlib_lz77_compress_mm_new.cpp",
+     "/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/src/zlib_huffman_enc_mm_new.cpp",
+     "/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/src/zlib_treegen_mm_new.cpp",
+     "/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/src/zlib_s2_pingpong_buffer.cpp",
+     "/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/src/zlib_top_loop.cpp"
+    ],
+    "cuNames": []
+   }
+  ]
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Fri Jul 24 03:44:52 2020",
+ "timestampMillis": "1595576692961",
+ "buildStep": {
+  "cmdId": "5fc42cc7-b540-428c-8a5f-5898dd4709ca",
+  "name": "vivado_hls",
+  "logFile": "/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/tests/zlib_compress/hls4/a/zlib_top/vivado_hls.log",
+  "commandLine": "vivado_hls -f /home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/tests/zlib_compress/hls4/a/zlib_top/zlib_top.tcl -messageDb vivado_hls.pb",
+  "args": [
+   "vivado_hls",
+   "-f",
+   "/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/tests/zlib_compress/hls4/a/zlib_top/zlib_top.tcl",
+   "-messageDb",
+   "vivado_hls.pb"
+  ],
+  "iniFiles": []
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Jul 24 03:44:52 2020",
+ "timestampMillis": "1595576692962",
+ "status": {
+  "cmdId": "5fc42cc7-b540-428c-8a5f-5898dd4709ca",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Jul 24 03:55:26 2020",
+ "timestampMillis": "1595577326522",
+ "status": {
+  "cmdId": "5fc42cc7-b540-428c-8a5f-5898dd4709ca",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Jul 24 03:55:26 2020",
+ "timestampMillis": "1595577326836",
+ "report": {
+  "path": "/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/tests/zlib_compress/hls4_report/a/system_estimate_a.xtxt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_SYSTEM_ESTIMATE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Jul 24 03:55:27 2020",
+ "timestampMillis": "1595577327395",
+ "report": {
+  "path": "/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/tests/zlib_compress/hls4_report/a/v++_compile_a_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Jul 24 03:55:27 2020",
+ "timestampMillis": "1595577327396",
+ "report": {
+  "path": "/home/yuhang/test_acc_lib_nPe/acc_lib/compression_xilinx_new_ddr/L2/tests/zlib_compress/hls4/v++_compile_a_guidance.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Jul 24 03:55:27 2020",
+ "timestampMillis": "1595577327397",
+ "status": {
+  "cmdId": "ce8f955d-5014-4acb-92be-7ce73184ae00",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>

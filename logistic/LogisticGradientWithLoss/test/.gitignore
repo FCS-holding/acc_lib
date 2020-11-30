@@ -1,0 +1,6 @@
+*.xclbin
+*.log
+*.jou
+*.o
+*.so
+run_test

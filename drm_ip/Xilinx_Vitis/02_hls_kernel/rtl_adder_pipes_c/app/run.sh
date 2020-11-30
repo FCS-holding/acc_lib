@@ -1,0 +1,2 @@
+g++ main.cpp -L/usr/lib64 -laccelize_drm -Wall -std=c++11 -Wno-unused-variable -lxrt_core -lxilinxopencl -lOpenCL -o main.o  -I/opt/xilinx/xrt_2.3.1/include -L/opt/xilinx/xrt_2.3.1/lib \ 
+-I/home/yuhang/DRM_IP/drmlib/include -Iinclude -I$(SDK_DIR)/userspace/include -I/usr/include/jsoncpp  -laccelize_drm -I/space/scratch/hanhu/GettingStarted_Examples/Hardware/Intel_DevCloud/hello_afu_rtl/sw/include/jsoncpp

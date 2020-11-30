@@ -1,0 +1,14 @@
+verbose : 2
+platform : {
+  cache_limit: 16384
+  scratch_limit: 4096
+	acc : {
+		id : "base"
+		path : "/curr/diwu/prog/blaze/examples/logisticRegression/acc_task/LogisticGradientWithLoss_base.so"
+	}
+	acc : {
+		id : "test"
+		path : "/curr/diwu/prog/acc_lib/logistic/LogisticGradientWithLoss/test/LogisticGradientWithLoss.so"
+	}
+}
+

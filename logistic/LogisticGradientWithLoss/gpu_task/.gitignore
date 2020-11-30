@@ -1,0 +1,5 @@
+*.xclbin
+*.log
+*.jou
+*.o
+*.so

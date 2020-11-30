@@ -1,0 +1,11 @@
+
+If want to change the filter size and image size,
+change FILTER_SIZE and IMAGE_SIZE in include/conv_3d.h;
+
+To do simulation and bitstream for multiple kernels:
+make runsim to run opencl emulation,
+make bitgen to generate bitstream.
+
+For single kernel estimation:
+in xilinx_mo, make mcc_estimate
+
